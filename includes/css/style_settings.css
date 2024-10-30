@@ -1,0 +1,730 @@
+.mo_saml_help_title {
+	font-size:17px;
+	width:100%;
+	color:#1B79AE;
+	cursor:pointer;
+	font-weight: bold;
+}
+.mo_saml_help_desc {
+	font-size:13px;
+	border-left:solid 2px rgba(128, 128, 128, 0.65);
+	margin-top:10px;
+	padding-left:10px;
+}
+.mo_saml_help {
+	border-top: solid 1px grey;
+	width: 95%;
+}
+.mo_saml_help_cell {
+	padding: 20px;
+	border-bottom: solid 1px grey;
+}
+.mo_saml_support_layout{
+	width: 93%;
+	background-color:white;
+	border:1px solid #CCCCCC;
+	padding-left:20px;
+}
+.mo_saml_table_layout {
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	padding:0px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+.mo_saml_table_layout td {
+
+}
+.mo_saml_table_layout input['type=text'] {
+	width: 80%;
+}
+.mo_saml_table_layout td strong {
+	margin-left: 10px;
+}
+.panel_toggle {
+	cursor: pointer;
+}
+.panel_toggle:hover {
+	text-decoration: underline;
+}
+.mo_saml_table_textbox {
+	width: 80%;
+}
+.mo_saml_settings_table {
+	width: 100%;
+}
+.mo_saml_settings_table tr td:first-child {
+	width: 30%;
+}
+.mo_saml_heading_margin {
+	margin-left: 0px;
+}
+.error_wid_login {
+	background-color: #FFEBE8;
+	border: 1px dashed #FF0000;
+	color: #FF0000;
+	float: left;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: 500;
+	padding: 6px;
+	margin-left: 200px;
+	width: 80%;
+	clear:both !important;
+}
+
+.login_wid li{
+	margin:5px;
+}
+
+.login_wid{
+	list-style-type:none;
+	border: 1px dashed #999999;
+	width:98%;
+	float:left;
+	padding:5%;
+
+}
+.login_wid li{
+	width:48%;
+	float:left;
+	margin:2px;
+}
+.openid_social_login{
+	padding:5px 0px 0px 0px;
+	clear:both;
+	width:100% !important;
+}
+
+.login_wid li input{
+	width:85%;
+	float:left;
+	margin:2px;
+}
+.mo_saml_local_pricing_free_tab{
+	background-color: rgba(34, 153, 221, 0.82)!important;
+}
+.mo_saml_local_pricing_paid_tab{
+	background-color: #1a71a4 !important;
+}
+.mo_saml_local_pricing_text{
+	font-size: 14px !important;
+	color: #fff !important;
+	font-weight: 600 !important;
+
+}
+.mo_saml_local_pricing_sub_header{
+	margin: 2px !important;
+	color: #fff !important;
+}
+.mo_saml_local_pricing_header{
+	color: #fff !important;
+	margin: 4px !important;
+}
+.mo_saml_local_pricing_table{
+	text-align:center;
+	font-size: 15px !important;
+	background-color:#FFFFFF;
+}
+
+.mo_saml_premium_thumbnail{
+	width: 350px;
+	padding: 4px;
+	margin-bottom: 10px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
+}
+
+.mo-fa-icon>tr>td>i.fa{
+	color:#5b8a0f;
+
+}
+
+.mo_align-center>tr>td{
+	text-align:center !important;
+}
+
+.mo_table-bordered, .mo_table-bordered>tbody>tr>td{
+	border: 1px solid #ddd;
+}
+
+.mo_table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #f9f9f9;
+}
+
+.mo_table-bordered>thead>tr>th{
+	vertical-align:top !important;
+}
+
+.mo_plan-desc{
+	font-size:14px !important;
+}
+.mo-display-logs{
+	color: #3c763d;
+	background-color: #dff0d8;
+	padding:2%;
+	margin-bottom:20px;
+	text-align:center;
+	border:1px solid #AEDB9A;
+	font-size:18pt;
+}
+.mo-display-block {
+	color: #050505;
+	width: -moz-available;
+	min-height: 300px !important;
+	overflow: auto;
+	display: inline-block;
+	background-color: #f6f6f6;
+	padding: 2%;
+	margin-bottom: 20px;
+	text-align: left;
+	border: 1px solid #AEDB9A;
+	font-size: 12pt;
+}
+.mo_divider{
+	width:5px;
+	height:auto;
+	display:inline-block;
+}
+/* Tooltip container */
+.tooltip {
+	position: relative;
+	display: inline-block;
+	size: letter;
+	/* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+
+	background-color:grey;
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	font-size: 12px;
+	/* Position the tooltip text */
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+	font-size: small;
+	/* Fade in tooltip */
+	opacity: 50;
+	transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+/*Included for the feedback form*/
+.mo_modal {
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
+
+}
+
+
+.mo_modal-content {
+	position: relative;
+	background-color: #ffffff;
+	border: 1px solid #999999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	outline: 0;
+	margin-left: 20%;
+	margin-right: 24%;
+	margin-top:6%;
+}
+
+.mo_close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .5;
+	z-index: 0;
+
+}
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity 0.15s linear;
+	-o-transition: opacity 0.15s linear;
+	transition: opacity 0.15s linear;
+}
+.fade.in {
+	opacity: 1;
+}
+.modal-header {
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.modal-header .close {
+	margin-top: -2px;
+}
+.modal-title {
+	margin: 0;
+	line-height: 1.42857143;
+	font-size: large;
+}
+.modal-body {
+	position: relative;
+	padding: 15px;
+}
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+.modal.fade .modal-dialog {
+	-webkit-transform: translate(0, -25%);
+	-ms-transform: translate(0, -25%);
+	-o-transform: translate(0, -25%);
+	transform: translate(0, -25%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+}
+.modal.in .modal-dialog {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+modal-footer {
+	padding: 15px;
+	text-align: right;
+	border-top: 1px solid #e5e5e5;
+}
+.modal-footer .btn + .btn {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+.modal-footer .btn-group .btn + .btn {
+	margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+	margin-left: 0;
+}
+.close {
+	float: right;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1;
+	color: #000000;
+	text-shadow: 0 1px 0 #ffffff;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+.close:hover,
+.close:focus {
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+button.close {
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+.mo-span-circle{
+	display: inline-block;
+	padding: 15px;
+	line-height: 100%;
+
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+
+}
+.nav-tab-active{
+	margin-bottom: -1px;
+	background: white;
+	border-bottom: white;
+	border-bottom: 3px solid white;
+}
+.nav-tab-active:hover{
+	color: black;
+	background: white;
+	border-bottom: white;
+	border-bottom: 3px solid white;
+}
+
+
+/**SALE BANNER **/
+
+/* Banner CSS */
+.head-title {
+    font-size: 55px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    line-height: 1.1;
+    color: transparent;
+    -webkit-text-stroke: 2px #9f5ab5;
+    animation: blink 2s infinite;
+
+}
+
+.hr-line {
+    border-bottom: 1px solid #ffffff;
+    line-height: 0.1em;
+    margin-top: 20px;
+}
+
+.hr-line span {
+    background-color: #1d2328;
+    margin-left: 15px;
+    color: #f9f5f5;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.table-text {
+    color: #ffff;
+    font-size: 21px;
+    margin-left: 14px;
+    margin-top: -35px;
+}
+
+.instance-text {
+    font-size: 20px;
+    color: #f97221;
+}
+
+.sub-banner {
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    color: white;
+    font-size: 27px;
+    margin-top: 30px;
+    margin-left: -22px;
+}
+
+.sale-bg-banner {
+    background-image: url('../../images/snow.gif');
+    height: 13em;
+
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.banner-sale {
+    padding: 0em 3em 0em 3em;
+    /* padding-left: 8em; */
+    margin-top: 0.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-text-sale {
+    line-height: 1.7;
+    font-size: 1.4em;
+    font-weight: 500;
+    font-family: 'Roboto', 'Arial';
+    color: #fff;
+    margin-top: 1em;
+}
+
+.banner-contact {
+    margin-top: 44px;
+}
+
+.banner-btn-sale {
+    background: transparent;
+    padding: 10px 33px 10px 33px;
+    border: #fff solid 2px;
+    border-radius: 14px;
+    color: #e99c9c !important;
+    font-size: 18px;
+    margin: 0.5em 0.5em;
+    animation: blink_2 2s infinite;
+    text-align: center;
+	text-decoration: none;
+}
+
+.banner-btn-sale:hover {
+    background: white;
+    border: 2px solid #2e6399;
+    color: black !important;
+}
+
+@keyframes blink {
+    10% {
+        color: hsla(192, 100%, 51%, 0.575);
+        text-shadow: 1px 1px 0px#fff, 0px 0px 10px hsla(288, 100%, 51%, 0.582), 0px 0px 20px hsla(175, 81%, 41%, 0.774);
+    }
+}
+
+@keyframes blink_2 {
+    10% {
+        color: hsl(0, 100%, 50%);
+        text-shadow: 1px 1px 0px rgb(255, 0, 0), 0px 0px 10px hsl(0, 100%, 50%), 0px 0px 20px hsl(0, 100%, 50%);
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .banner-sale {
+        padding: 1em;
+        text-align: center;
+        color: #fff;
+    }
+
+    .sale-bg-banner {
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .vc_custom_1622630950173 {
+        padding: 2em 0 0 !important;
+        color: #fff;
+
+    }
+
+    .banner-btn-sale {
+        width: 84%;
+    }
+
+    @media screen and (max-width:767px) {
+        .snowflake {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width:1025px) and (min-width:1024px) {
+        .banner-contact {
+            margin-top: 139px;
+        }
+
+        .banner-btn-sale {
+            margin: 0.5em 3.5em;
+        }
+
+        .hr-line {
+            width: 112%;
+            margin-left: -28px;
+        }
+
+        .hr-line span {
+            margin-left: none;
+        }
+    }
+
+    @media screen and (max-width: 769px) {
+        .hr-line {
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width:769px) and (min-width:768px) {
+        .head-title {
+            font-size: 50px;
+            margin-top: -25px;
+        }
+
+        .sub-banner {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .banner-contact {
+            margin-top: 0px;
+        }
+
+        .table-text {
+            font-size: 18px;
+            margin-left: 138px;
+            margin-top: -28px;
+        }
+
+        .banner-btn-sale {
+            font-size: 16px;
+            margin: 1em 0em 0em 2.5em;
+        }
+
+        .instance-text {
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (max-width:426px) and (min-width:425px) {
+        .head-title {
+            font-size: 45px;
+            margin-top: -20px;
+        }
+
+        .sub-banner {
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .banner-contact {
+            margin-top: 0px;
+        }
+
+        .table-text {
+            font-size: 15px;
+        }
+
+        .instance-text {
+            font-size: 15px;
+        }
+
+        .banner-btn-sale {
+            margin: 0.5em 0.5em;
+        }
+
+        .sale-bg-banner {
+            height: 15em;
+        }
+    }
+
+    @media screen and (max-width:376px) and (min-width:375px) {
+        .head-title {
+            font-size: 38px;
+            margin-top: -20px;
+        }
+
+        .sub-banner {
+            font-size: 18px;
+            margin-top: 0px;
+        }
+
+        .banner-contact {
+            margin-top: 0px
+        }
+
+        .table-text {
+            font-size: 17px;
+            margin-left: -13px;
+            margin-top: -24px;
+        }
+
+        .instance-text {
+            font-size: 17px;
+        }
+
+        .banner-btn-sale {
+            width: 84%;
+        }
+
+        .sale-bg-banner {
+            height: 28em;
+        }
+    }
+
+    @media screen and (max-width:321px) and (min-width:320px) {
+        .sale-bg-banner {
+            height: 25em;
+        }
+
+        .head-title {
+            font-size: 30px;
+
+        }
+
+        .sub-banner {
+            margin-bottom: 27px;
+            font-size: 16px;
+        }
+
+        .banner-contact {
+            margin-top: 0px;
+        }
+
+        .table-text {
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: -35px;
+        }
+
+        .instance-text {
+            font-size: 14px;
+            margin-left: 48px;
+        }
+
+        .banner-btn-sale {
+            font-size: 14px;
+        }
+
+        .banner-sale {
+            margin-top: 0px
+        }
+    }        
+}
